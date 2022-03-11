@@ -30,7 +30,7 @@
 
 .dsmovie-cards{
 
-    width: 360px;
+    width: 100%;
 
 }
 
@@ -49,16 +49,19 @@
 .dsmovie-card-descripton{
     background-color: var(--color-white);
     border-radius: 0 0 9px 9px;
-    padding: 10px 0 20px 0;
+    padding: 10px 22px 20px 22px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 160px;
+    justify-content: space-between;
 }
 
 .dsmovie-card-descripton h3{
     font-size: 12px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
 
 }
 
