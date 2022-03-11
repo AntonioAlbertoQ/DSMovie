@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+:root{
+
+    --bg-gray: #717171;
+    --color-primey: #4D41C0;
+    --color-white: #FFFFFF;
+}
+
 *{
 
     box-sizing: border-box;
@@ -7,16 +14,37 @@
 
 }
 
+.dsmovie-contact-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.dsmovie-contact-container img{
+     
+    margin-right: 10px;
+
+}
+
+h1 h2 h3 h4 h5{
+
+    margin: 0;
+
+}
+
 html, body{
 
-    background-color: #717171;
+    background-color: var(--bg-gray);
 
 }
 
 header{
 
-    background-color: #4D41C0;
-    color: #FFFFFF;
+    background-color: var(--color-primey);
+    color: var(--color-white);
+    height: 60px;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -25,6 +53,20 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav h1{
+
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+nav a{
+
+    font-size: 12px;
+    font-weight: 400;
+
 }
 
 a, a:hover{
