@@ -40,7 +40,7 @@
 
 #dsmocie-card-list{
 
-    padding: 43px 10px;
+    padding: 0px 10px;
 }
 
 .dsmovie-cards img{
@@ -153,6 +153,56 @@
     font-size: 13px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.dsmovie-pagination-container{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-pagination-box{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    align-items: center;
+}
+
+.dsmovie-pagination-box p{
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--color-primey);
+}
+
+.dsmovie-pagination-box button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primey);
+    border-radius: 5px;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dsmovie-pagination-box button:disabled{
+    border: 1px solid var(--bg-gray);
+
+}
+
+.dsmovie-flip-horizontal{
+    transform: rotate(180deg);
+}
+
+.dsmovie-pagination-box button img {
+
+filter: brightness(0) saturate(100) invert(22%) sepia(29%) saturate(5247%) hue-rotate(235deg) brightness(101%) contrast(89%);
+}
+
+.dsmovie-pagination-box button:disabled img{
+    filter: unset;
 }
 
 h1 h2 h3 h4 h5{
