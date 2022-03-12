@@ -6,6 +6,7 @@
     --color-primey: #4D41C0;
     --color-white: #FFFFFF;
     --text-grey: #4A4A4A;
+    --text-light-gray: #AAAAAA;
 
 }
 
@@ -77,12 +78,55 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    border: 0%;
 }
 
 .dsmovie-form-container{
 
     padding: 50px 0;
     max-width: 480px;
+}
+
+.dsmovie-forms-descripton{
+    background-color: var(--color-white);
+    border-radius: 0 0 9px 9px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmovie-form{
+
+        width: 100%;
+}
+
+.dsmovie-form-btn-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+
+}
+
+.dsmovie-form-grup{
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-grup label{
+
+    color: var(--text-light-gray);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.dsmovie-forms-descripton h3{
+
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 h1 h2 h3 h4 h5{
