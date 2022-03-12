@@ -40,7 +40,7 @@
 
 #dsmocie-card-list{
 
-    padding: 43px 0;
+    padding: 43px 10px;
 }
 
 .dsmovie-cards img{
@@ -63,7 +63,7 @@
 .dsmovie-card-descripton h3{
     font-size: 12px;
     font-weight: 700;
-    margin-bottom: 23px;
+    margin-bottom: 10px;
     text-align: center;
 
 }
